@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Блог — Малик Маммедзаде</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div class="site-bg"></div>
+  <div class="noise"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__dot"></span>
+        <span class="logo__text">MALIK</span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="blog.html" class="is-active">Блог</a>
+        <a href="shop.html">Магазин</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Блог</span>
+          <h1>Все публикации</h1>
+          <p>
+            Узнайте о мыслях Малика, черновиках и многое другое
+          </p>
+        </div>
+
+        <div class="blog-grid" id="allPostsGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/blog.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Магазин — Малик Маммедзаде</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div class="site-bg"></div>
+  <div class="noise"></div>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <span class="logo__dot"></span>
+        <span class="logo__text">MALIK</span>
+      </a>
+
+      <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="blog.html">Блог</a>
+        <a href="shop.html" class="is-active">Магазин</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="inner-page">
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Магазин</span>
+          <h1>Все товары</h1>
+          <p>
+            Каталог товаров с фильтрацией, поиском и красивой выдачей карточек.
+          </p>
+        </div>
+
+        <div class="shop-toolbar">
+          <input type="text" id="shopSearch" placeholder="Поиск товара..." class="shop-search" />
+          <div class="shop-filters">  
+            <button class="filter-btn active" data-category="all">Все</button>
+            <button class="filter-btn" data-category="Clothing">Одежда</button>
+            <button class="filter-btn" data-category="Accessories">Аксессуары</button>
+            <button class="filter-btn" data-category="Drinkware">Кружки/посуда</button>
+            <button class="filter-btn" data-category="Gifts">Подарки</button>
+            <button class="filter-btn" data-category="Others">Другое</button>
+          </div>
+        </div>
+
+        <div class="shop-grid" id="shopGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/data.js"></script>
+  <script src="js/shop.js"></script>
+</body>
+</html>
