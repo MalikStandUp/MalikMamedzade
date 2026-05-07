@@ -68,7 +68,7 @@ const productsData = [
     featured: true,
     popular: true,
     category: "Drinkware",
-    title: "Куржка для Цая",
+    title: "Кружка для Цая",
     description: "Пить цай в недоступном для кортизола месте. Минздрав предупреждает: чрезмерное употребление цая приводит к душевному спокойствию",
     price: "15₼",
     image: "img/krujka.jpeg",
